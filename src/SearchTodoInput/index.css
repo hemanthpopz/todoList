@@ -1,0 +1,49 @@
+.search-container {
+  padding: 10px;
+  background-color: #0c8ae9;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  background-color: #d0e6f0;
+  color: #0c8ae9;
+  width: 90%;
+  border-width: 0px;
+  margin-right: 10px;
+
+  outline: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+::placeholder {
+  color: #0c8ae9;
+  opacity: 1;
+}
+.search-todo-form {
+}
+select {
+  background-color: #d0e6f0;
+  color: #0c8ae9;
+  padding: 8px;
+  width: 50%;
+  border-radius: 4px;
+  border-width: 0px;
+
+  font-family: 'Roboto';
+}
+.options {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .search-container {
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

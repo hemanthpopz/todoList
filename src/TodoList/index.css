@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Hammersmith+One&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  height: 100vh;
+  padding: 10px;
+  background-color: #d0e6f0;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+nav {
+  padding: 10px;
+}
+.logo {
+  color: #0c8ae9;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.text-logo {
+  color: #0c8ae9;
+  font-family: 'Hammersmith One', sans-serif;
+
+  font-size: 15px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todos-container {
+  border: 2px solid #0c8ae9;
+  margin-top: 50px;
+  padding: 10px;
+  overflow: auto;
+  height: 500px;
+}
+ul {
+  list-style: none;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+@media screen and (min-width: 600px) {
+  .logo {
+    font-size: 34px;
+  }
+  .text-logo {
+    font-size: 18px;
+  }
+  .todos-container {
+    width: 600px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+  }
+  li {
+    width: 340px;
+  }
+}

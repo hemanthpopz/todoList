@@ -1,0 +1,83 @@
+.main-heading {
+  background-color: #0c8ae9;
+  color: white;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 5px 50px;
+  font-family: 'Roboto';
+  font-size: 22px;
+  text-align: center;
+  margin: 60px 0px;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-input {
+  width: 50%;
+  background-color: #d0e6f0;
+  min-width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 2px solid #0c8ae9;
+  outline: none;
+  color: #0c8ae9;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+
+.plus-icon {
+  margin-right: 5px;
+}
+.reset-icon {
+  margin-right: 5px;
+}
+
+.input-btn {
+  background-color: #0c8ae9;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 12px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.input-btn:hover {
+  background-color: transparent;
+  color: #0c8ae9;
+
+  cursor: pointer;
+}
+.add-todo-container {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #0c8ae9;
+  padding: 20px;
+  max-width: 700px;
+}
+@media screen and (min-width: 600px) {
+  .add-todo-container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .user-input {
+    font-size: 15px;
+  }
+  .main-heading {
+    margin: 40px;
+    font-size: 25px;
+  }
+}
