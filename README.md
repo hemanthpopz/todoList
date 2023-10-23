@@ -1,10 +1,4 @@
-# Styled Components
+Copy files in vs code
 
-- Styling React Components
-  - CSS-in-JS
-- Styled Components
-  - Adapting based on props
-  - Conditional Styling
-- Advantages
-  - Unique Class Names
-  - Readability
+enter npm install
+and enter npm start
