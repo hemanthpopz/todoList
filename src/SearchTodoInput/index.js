@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import {BsFillFilterCircleFill} from 'react-icons/bs'
+import {FaSearch} from 'react-icons/fa'
 import OptionsList from '../OptionsList'
-
 import './index.css'
 
 const selectOptions = [
@@ -36,10 +36,12 @@ class SearchTodoInput extends Component {
         <form className="search-todo-form">
           <input
             onChange={onChangeSearch}
-            placeholder="Search Your Todo"
+            placeholder="Search Your Task"
             className="search-input"
             type="text"
           />
+
+          <FaSearch className="search-icon" />
         </form>
 
         <select onChange={onChangeSelect}>

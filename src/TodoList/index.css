@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Hammersmith+One&display=swap');
+@import url('https://db.onlinewebfonts.com/c/0852d031fbfa0061d0f826a4d2750e05?family=Sonorous'); 
 * {
   margin: 0px;
   padding: 0px;
@@ -6,7 +7,7 @@
 .container {
   height: 100vh;
   padding: 10px;
-  background-color: #d0e6f0;
+  background-color:#ADEFD1FF;
 }
 .logo-container {
   display: flex;
@@ -16,15 +17,16 @@ nav {
   padding: 10px;
 }
 .logo {
-  color: #0c8ae9;
+  color: #00203FFF;
   font-size: 20px;
   margin-right: 10px;
 }
 .text-logo {
-  color: #0c8ae9;
-  font-family: 'Hammersmith One', sans-serif;
-
+  color: #00203FFF;
+  font-family: "Sonorous";
+  /* font-family: 'Hammersmith One', sans-serif; */
   font-size: 15px;
+  font-weight: 10;
 }
 .content-container {
   display: flex;
@@ -32,7 +34,7 @@ nav {
   align-items: center;
 }
 .todos-container {
-  border: 2px solid #0c8ae9;
+  border: 2px solid #00203FFF;
   margin-top: 50px;
   padding: 10px;
   overflow: auto;

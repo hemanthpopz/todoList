@@ -1,33 +1,40 @@
 .delete-icon {
   font-size: 12px;
-  color: #0c8ae9;
+  color: #00203FFF;
 }
 .todo-heading {
-  font-size: 14px;
-  color: #0c8ae9;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: #00203FFF;
 }
 .checked-heading {
-  font-size: 14px;
-  color: #0c8ae9;
+  font-size: 12px;
+  color: #00203FFF;
   opacity: 0.7;
+  font-family: 'Montserrat', sans-serif;
   transition: 0.2s;
   text-decoration: line-through;
 }
 .checkbox {
-  width: 13px;
+  width: 20px;
   margin-right: 10px;
+  margin-bottom: 5px;
 }
+input[type="checkbox"]{
+  accent-color: #00203FFF;
+}
+
 li {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ADEFD1FF;
   border-radius: 5px;
   padding: 10px;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
-  border: 2px solid #0c8ae9;
+  border: 2px solid #00203FFF;
 }
 .checkbox-container {
   display: flex;
@@ -38,6 +45,22 @@ li {
   border-width: 0px;
   cursor: pointer;
 }
+.edit-icon{
+  cursor: pointer;
+  color: #00203FFF;
+  margin-left: 10px;
+}
+.edit-btn{
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 12px;
+}
+
+.each-button-container{
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (min-width: 600px) {
   .delete-icon {
     font-size: 22px;
@@ -50,5 +73,8 @@ li {
   }
   .checked-heading {
     font-size: 16px;
+  }
+  .edit-btn{
+    font-size: 18px;
   }
 }

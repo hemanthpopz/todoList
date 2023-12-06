@@ -32,13 +32,14 @@ class InputComponent extends Component {
     return (
       <div className="input-container">
         <div className="heading-container">
-          <h1 className="main-heading">YOUR TODO-LIST</h1>
+          <h1 className="main-heading">YOUR TASK-LIST</h1>
         </div>
         <form className="add-todo-container">
           <input
             onChange={onChangeInput}
             placeholder="Enter a new task"
             type="text"
+            id="user-input-form"
             value={userInput}
             className="user-input"
           />

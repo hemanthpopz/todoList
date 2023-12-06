@@ -1,40 +1,49 @@
 .search-container {
   padding: 10px;
-  background-color: #0c8ae9;
+  background-color: #00203FFF;
   border-radius: 5px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
 .search-input {
-  background-color: #d0e6f0;
-  color: #0c8ae9;
+  background-color: #ADEFD1FF;
+  color: #00203FFF;
   width: 90%;
   border-width: 0px;
   margin-right: 10px;
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   outline: none;
   border-radius: 4px;
   padding: 8px;
 }
-::placeholder {
-  color: #0c8ae9;
-  opacity: 1;
-}
+
 .search-todo-form {
+  display: flex;
+  align-items: center;
+  background-color: #ADEFD1FF;
+  margin-right: 10px;
+  border-radius: 5px;
 }
+.search-icon{
+  width: 30px;
+  color: #00203FFF;
+}
+
+
 select {
-  background-color: #d0e6f0;
-  color: #0c8ae9;
+  background-color:#ADEFD1FF;
+  color: #00203FFF;
   padding: 8px;
   width: 50%;
   border-radius: 4px;
   border-width: 0px;
-
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
 }
-.options {
-  font-family: 'Hammersmith One', sans-serif;
+option:hover{
+  background-color: #00203FFF;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 600px) {

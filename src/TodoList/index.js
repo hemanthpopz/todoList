@@ -129,7 +129,7 @@ class TodoList extends Component {
         <nav>
           <div className="logo-container">
             <BsListStars className="logo" />
-            <h1 className="text-logo">TODO-List</h1>
+            <h1 className="text-logo">TASK-LIST</h1>
           </div>
         </nav>
         <div className="content-container">

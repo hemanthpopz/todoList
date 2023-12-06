@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {MdDelete} from 'react-icons/md'
-
+import {FaEdit} from 'react-icons/fa'
 import './index.css'
 
 class EachTodo extends Component {
@@ -21,6 +21,10 @@ class EachTodo extends Component {
       onClickCheckbox(id)
     }
 
+    const onClickEdit = () => {
+      console.log(inputValue)
+    }
+
     return (
       <li>
         <div className="checkbox-container">
@@ -34,9 +38,22 @@ class EachTodo extends Component {
           </form>
           <h1 className={headingClass}>{inputValue}</h1>
         </div>
-        <button onClick={onClickDelete} className="delete-button">
-          <MdDelete className="delete-icon" />
-        </button>
+        <div className="each-button-container">
+          <button
+            aria-label="Mute volume"
+            onClick={onClickDelete}
+            className="delete-button"
+          >
+            <MdDelete className="delete-icon" />
+          </button>
+          <button
+            onClick={onClickEdit}
+            className="edit-btn"
+            aria-label="Mute volume"
+          >
+            <FaEdit className="edit-icon" />
+          </button>
+        </div>
       </li>
     )
   }
